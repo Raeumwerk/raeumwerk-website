@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Räumwerk - Entrümpelung mit System</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background-color: #f8f8f8;
+      color: #333;
+    }
+    header {
+      background-color: #1b3b2f;
+      color: white;
+      padding: 2rem 1rem;
+      text-align: center;
+    }
+    .logo {
+      font-size: 2rem;
+      font-weight: bold;
+    }
+    .slogan {
+      font-size: 1.1rem;
+      margin-top: 0.5rem;
+      color: #d0d0d0;
+    }
+    .content {
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 2rem;
+      max-width: 1000px;
+      margin: auto;
+    }
+    .card {
+      background: white;
+      padding: 1.5rem;
+      border-radius: 1rem;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+    .card h2 {
+      color: #1b3b2f;
+    }
+    footer {
+      background-color: #1b3b2f;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+    }
+    .btn {
+      background-color: #1b3b2f;
+      color: white;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 8px;
+      font-size: 1rem;
+      cursor: pointer;
+      margin-top: 1rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">RÄUMWERK</div>
+    <div class="slogan">Entrümpelung mit System</div>
+  </header>
+
+  <div class="content">
+    <div class="card">
+      <h2>Unsere Leistungen</h2>
+      <ul>
+        <li>Wohnungs- und Haushaltsauflösungen</li>
+        <li>Keller-, Dachboden- & Garagenräumung</li>
+        <li>Entsorgung & umweltgerechte Trennung</li>
+        <li>Besenreine Übergabe</li>
+        <li>Sperrmüll-, Sondermüllentsorgung</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <h2>Warum Räumwerk?</h2>
+      <p>Verlassen Sie sich auf Pünktlichkeit, faire Preise und ein eingespieltes Team. Mit unserem strukturierten Ablauf garantieren wir eine schnelle und professionelle Entrümpelung.</p>
+    </div>
+
+    <div class="card">
+      <h2>Kontaktieren Sie uns</h2>
+      <p>Jetzt kostenloses Angebot anfordern:</p>
+      <p>📞 0123 456789<br />📧 info@raeumwerk.de</p>
+      <button class="btn">Angebot anfragen</button>
+    </div>
+  </div>
+
+  <footer>
+    &copy; 2025 Räumwerk GmbH &ndash; Entrümpelung mit System
+  </footer>
+</body>
+</html>
